@@ -39,17 +39,6 @@ This project simulates a real-world supermarket system where users can:
 
 ---
 
-## 🔌 API Endpoints
------------------------------------------------------
-| Method | Endpoint        | Description            |
-|--------|---------------|--------------------------|
-| GET    | /products     | Get all products         |
-| POST   | /cart         | Add item to cart         |
-| GET    | /orders       | Retrieve user orders     |
------------------------------------------------------
-
----
-
 ## How It Works
 
 * Products are displayed on the homepage
