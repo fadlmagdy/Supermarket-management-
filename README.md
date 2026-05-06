@@ -1,26 +1,94 @@
 # Supermarket Management System
 
-## Description
-This project is a simple system to manage supermarket operations using C++.
+A simple and efficient Supermarket Management System designed to manage products, customers, and sales operations.
+
+---
+
+## Overview
+
+This project simulates a real-world supermarket system where users can:
+
+* Manage products
+* Handle customer purchases
+* Track orders and cart items
+* Calculate total prices
+
+---
 
 ## Features
-- Add items
-- Search items
-- Display all items
 
-## Technologies
-- C++
+* Add products to cart
+* Increase / decrease product quantity
+* Remove items from cart
+* Calculate total price dynamically
+* Display all available products
+* Real-time cart updates
+* Data persistence using SQL Server
+
+---
+
+## Technologies Used
+
+## 🛠️ Technologies Used
+
+- Frontend: React.js
+- Styling: Bootstrap / React-Bootstrap
+- State Management: Context API
+- Backend: Node.js + Express
+- Database: SQL Server
+
+---
+
+## 🔌 API Endpoints
+-----------------------------------------------------
+| Method | Endpoint        | Description            |
+|--------|---------------|--------------------------|
+| GET    | /products     | Get all products         |
+| POST   | /cart         | Add item to cart         |
+| GET    | /orders       | Retrieve user orders     |
+-----------------------------------------------------
+
+---
+
+## How It Works
+
+* Products are displayed on the homepage
+* Users can add items to the cart
+* Cart updates automatically using Context API
+* Data is stored and managed using SQL Server
+
+---
+
+## 💡 Key Concepts
+
+- State Management using Context API
+- Component Reusability
+- Cart Logic Implementation
+---
+
+## Future Improvements
+
+* User authentication
+* Order history
+* Full backend API integration
+* Admin dashboard
+
+---
 
 ## Team Members
-- Fadl Magdy
-- beshoy hany
-- Gina Emil
-- Candy Hany
-- 1
-- 2
-- 3
-- 4
 
-## How to Run
-1. Open the project in Visual Studio
-2. Run main.cpp
+* Youssef Ahmed
+* Beshoy Hany
+* FadlAllah Magdy
+* Ahmed Ibrahim
+* Youssef Ibrahim
+* Youssef Talaat
+* Gina Emil
+* Candy Hany
+
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
